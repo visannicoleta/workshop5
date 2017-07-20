@@ -6,6 +6,6 @@ public class StudentConsumer {
 		s1.setAge(21);
 		s1.setName("Ion");
 		
-		System.out.println(s1.getName()+" "+s1.getAge());
+		System.out.println("Hello" + s1.getName()+" !");
 	}
 }
