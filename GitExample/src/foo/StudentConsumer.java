@@ -7,5 +7,11 @@ public class StudentConsumer {
 		s1.setName("Ion");
 		
 		System.out.println("Hello" + s1.getName()+" !");
+		
+		displayAge(s1);
+	}
+	
+	public static void displayAge(Student s){
+		System.out.println(s.getAge());
 	}
 }
