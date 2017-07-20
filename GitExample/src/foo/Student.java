@@ -2,7 +2,7 @@ package foo;
 
 public class Student {
 	public String name;
-	public int age;
+	public long age;
 
 	
 	public String getName() {
@@ -11,7 +11,7 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getAge() {
+	public long getAge() {
 		return age;
 	}
 	public void setAge(int age) {
